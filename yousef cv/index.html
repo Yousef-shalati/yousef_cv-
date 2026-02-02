@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Alshalati | IT Specialist Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-glow" id="cursor"></div>
+
+    <nav class="floating-nav">
+        <button class="nav-btn" onclick="window.print()" title="Download CV"><i class="fas fa-download"></i></button>
+        <button class="nav-btn" id="themeToggle" title="Switch Theme"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-img-container">
+                <img src="profile.jpg" alt="Yousef" onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=Yousef'">
+            </div>
+            <h1>Yousef Alshalati</h1>
+            <p class="job-title">IT SPECIALIST</p>
+
+            <section class="sidebar-section">
+                <h2 class="centered-h2">Contact</h2>
+                <div class="contact-list">
+                    <a href="mailto:alshalatiyousef@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> Email Me</a>
+                    <a href="tel:+962790202724" class="contact-link"><i class="fas fa-phone"></i> +962 79 020 2724</a>
+                    <div class="contact-link"><i class="fas fa-location-dot"></i> Amman, Jordan</div>
+                    <a href="#" class="contact-link"><i class="fab fa-instagram"></i> @yousef_alshalati</a>
+                </div>
+            </section>
+
+            <section class="sidebar-section">
+                <h2 class="centered-h2">Tech Stack</h2>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Python / RSA</span><span>85%</span></div>
+                    <div class="progress-bg"><div class="progress-fill" data-percent="85%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Web Development</span><span>80%</span></div>
+                    <div class="progress-bg"><div class="progress-fill" data-percent="80%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Hardware Support</span><span>90%</span></div>
+                    <div class="progress-bg"><div class="progress-fill" data-percent="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Linux Admin</span><span>70%</span></div>
+                    <div class="progress-bg"><div class="progress-fill" data-percent="70%"></div></div>
+                </div>
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <section class="reveal">
+                <h2><i class="fas fa-user-rocket"></i> Overview</h2>
+                <div class="card">
+                    <p class="overview-text">
+                        Ambitious 17-year-old IT professional and student at Islamic Educational College. Certified in **ICDL** and **BTEC (Levels 2 & 3)**. I bridge the gap between complex hardware requirements and robust software solutions, with a proven track record in national science competitions (ISEF).
+                    </p>
+                </div>
+            </section>
+
+            <section class="reveal">
+                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>IT Assistant @ Shalati</h3>
+                        <span class="date-tag">2023 - Present</span>
+                    </div>
+                    <p class="card-text">Optimizing business flow through hardware maintenance, troubleshooting enterprise software infrastructure, and managing internal network security protocols.</p>
+                </div>
+            </section>
+
+            <section class="reveal">
+                <h2><i class="fas fa-code-branch"></i> Selected Projects</h2>
+                <div class="card">
+                    <h3>Encrypted Chat Engine</h3>
+                    <p class="card-text">A secure P2P communication tool utilizing **RSA Encryption** and Python socket programming to ensure data privacy.</p>
+                    <div class="tag-container">
+                        <span class="tag">Python</span>
+                        <span class="tag">Cryptography</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>SQL Resource Manager</h3>
+                    <p class="card-text">A custom database management system designed to track and organize school-wide digital equipment and deployment logs.</p>
+                    <div class="tag-container">
+                        <span class="tag">SQL</span>
+                        <span class="tag">Data Mgmt</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reveal">
+                <h2><i class="fas fa-graduation-cap"></i> Education & Certs</h2>
+                <div class="card">
+                    <h3 style="margin-bottom:5px;">Islamic Educational College</h3>
+                    <p class="edu-sub">High School Diploma (Expected 2025)</p>
+                    <p class="edu-highlights">
+                        • BTEC IT Level 2 & 3 Specialist <br><br>
+                        • ICDL Professional Certified <br><br>
+                        • ISEF National Participant
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
